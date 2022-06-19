@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <!-- <link rel="stylesheet" href="styles/min.css"> -->
+    <script src="https://kit.fontawesome.com/0239039983.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    
+
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="name">
+                    <a href="#">Eduardo S.</a>
+                </div>
+
+                <div class="options">
+                    <div class="options_enlaces">
+                        <a href="https://www.linkedin.com/in/-eduardosantamaria/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://twitter.com/EffectGM><i class="fa-brands fa-twitter"></i></a>
+                        <a onclick="addClass()" class="menu"><i class="fa-solid fa-grip-lines"></i></a>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="lateral_menu">
+                <div class="options">
+                    <a  onclick="desaparecerMenu()" href="#acerca">ACERCA DE MÍ</a>
+                    <hr>
+                    <a  onclick="desaparecerMenu()" href="#proyectos">PROYECTOS</a>
+                    <hr>
+                    <a  onclick="desaparecerMenu()" href="#galeria">GALERÍA DE PROYECTOS</a>
+                    <hr>
+                    <a  onclick="desaparecerMenu()" href="#contacto">CONTACTO</a>
+                </div>
+            </div>
+
+            <div onclick="desaparecerMenu()" class="texto">
+                <h1 class="layer" data-speed="1">E d u a r d o</h1>
+                <p class="layer line_one" data-speed="5"></p>
+                <p class="layer line_two" data-speed="5"></p>
+                <br>
+                <hr>
+                <p class="proffesion">Front-end Developer <span>/</span></p>
+                <p class="proffesion_two">Web designer.</p>
+                <br><br><br><br>
+                <a class="down" href="#"><i class="fa-solid fa-computer-mouse"></i> Scroll Down <i class="fa-solid fa-arrow-down"></i></a>
+                <a class="down saludo" href="#enlace"> ¡Saluda! 👋</a>
+            </div>
+
+            <div onclick="desaparecerMenu()" class="imagenes">
+                
+                <div class=" cloud cloud_1">
+                    <img class="layer" src="images/Cloud_nbg.png" data-speed="3" alt="cloud">
+                </div>
+                <div class=" cloud cloud_2">
+                    <img class="layer" src="images/Cloud_nbg.png" data-speed="3" alt="cloud">
+                </div>
+                <div class=" cloud cloud_3">
+                    <img class="layer" src="images/Cloud_nbg.png" data-speed="3" alt="cloud">
+                </div>
+                <div class=" cloud cloud_4">
+                    <img class="layer" src="images/Cloud_nbg.png" data-speed="4" alt="cloud">
+                </div>
+                <div class=" cloud leaf">
+                    <img class="layer" src="images/leaf.png" data-speed="10" alt="cloud">
+                </div>
+                
+                <div class=" cloud leaf_2">
+                    <img class="layer" src="images/leaf.png" data-speed="10" alt="cloud">
+                </div>
+                <div class=" cloud leaf_3">
+                    <img class="layer" src="images/leaf.png" data-speed="10" alt="cloud">
+                </div>
+                <div class=" cloud leaf_4">
+                    <img class="layer" src="images/leaf.png" data-speed="10" alt="cloud">
+                </div>
+                <div class=" cloud leaf_5">
+                    <img class="layer" src="images/leaf.png" data-speed="10" alt="cloud">
+                </div>
+                <div class=" cloud birds">
+                    <img class="layer" src="images/birds.png" data-speed="5" alt="cloud">
+                </div>
+                <div class=" moon">
+                    <!-- <img class="layer" src="images/Moon_nbg.png" data-speed="5" alt="Moon"> -->
+                    <div class="layer" data-speed="5" alt="Moon"></div>
+                </div>
+                <div class="texto">
+                    <h3 class="layer" data-speed="8">Portfolio</h3>
+                </div>
+                <div class=" cloud bright">
+                    <img class="layer" src="images/brightness.png" data-speed="6" alt="cloud">
+                </div>
+            </div>
+
+            
+        </header>
+
+        <span id="acerca"></span>
+        <br><br><br>
+        <section onclick="desaparecerMenu()" class="about">
+            
+            <p class="me">¡Hola! <br> Soy <span class="name">Eduardo S.</span> <br> Soy <span class="profesion">desarrollador Web Front-end.</span><br>De <span class="from">CDMX.</span></p>
+            <p class="description">¡Hola! Soy Eduardo, desarrollador web front-end (Y a veces diseño o manipulo imágenes). <br>Me apasiona mucho el mundo creativo y la experiencia del usuario basado en ello 🎨. Siempre trato de brindar lo mejor para el usuario. </p>
+            
+            <form method="get" action="document/C.V.2022.pdf">
+                <button type="submit">Currículum <i class="fa-solid fa-download"></i></button>
+             </form>
+             
+        </section>
+
+        <section onclick="desaparecerMenu()" class="proyectos" id="proyectos">
+            <h3>PROYECTOS</h3>
+            <div class="proyectos_proyectos">
+                <div class="proyectos_proyecto1">
+                    <p>Clon de Twitter <br> <span>By: Eduardo Santamaría</span> <br><a href="https://edddos.github.io/" target="_blank">Ver más <i class="fa-solid fa-arrow-right-long"></i></a></p>
+                    <div class="image">
+                    <img src="images/1.png" alt="">
+                    </div>
+                </div>
+                <div class="proyectos_proyecto1">
+                    <p>Clon de Funimation <br> <span>By: Eduardo Santamaría</span> <br><a href="https://edddos.github.io/EDDDosAnime.github.io/" target="_blank">Ver más <i class="fa-solid fa-arrow-right-long"></i></a></p>
+                    <div class="image">
+                    <img src="images/2.png" alt="">
+                    </div>
+                </div>
+                <div class="proyectos_proyecto1">
+                    <p>Portfolio web (Concepto) <br> <span>By: Eduardo Santamaría</span> <br><a href="https://edddos.github.io/EDDDoSportfolio.github.io/" target="_blank">Ver más <i class="fa-solid fa-arrow-right-long"></i></a></p>
+                    <div class="image">
+                    <img src="images/3.png" alt="">
+                    </div>
+                </div>
+                <div class="proyectos_proyecto1">
+                    <p class="p_proyecto">Innwai <br> <span>By: Eduardo Santamaría</span> <br><a href="https://innwai.rotoplas.com/" target="_blank">Ver más <i class="fa-solid fa-arrow-right-long"></i></a></p>
+                    <div class="image">
+                    <img src="images/4.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section onclick="desaparecerMenu()" class="galeria" id="galeria">
+            <h3>GALERÍA</h3>
+            <p class="info">Estos son algunos de los trabajos que he realizado gracias a las herramientas <br>
+            <span>Adobe Photoshop</span> & <span>Adobe Illustrator</span><br>
+        Ilustraciones, montajes, carteles, entre otras 🎨👾</p>
+            <div class="gallery">
+                <img src="images/img_1.jpg" alt="">
+                <img src="images/img_2.jpg" alt="">
+                <img src="images/img_3.jpg" alt="">
+                <img src="images/img_4.jpg" alt="">
+                <img src="images/img_5.jpg" alt="">
+                <img src="images/img_6.jpg" alt="">
+                <img src="images/img_7.jpg" alt="">
+                <img src="images/img_8.jpg" alt="">
+                <img src="images/img_9.jpg" alt="">
+                <img src="images/img_10.jpg" alt="">
+                <img src="images/img_11.jpg" alt="">
+                <img src="images/img_12.jpg" alt="">
+                <img src="images/img_13.jpg" alt="">
+                <img src="images/img_14.jpg" alt="">
+                <img src="images/img_15.jpg" alt="">
+                <img src="images/img_16.jpg" alt="">
+                <img src="images/img_17.jpg" alt="">
+                <img src="images/img_18.jpg" alt="">
+                <img src="images/img_19.jpg" alt="">
+                <img src="images/img_20.jpg" alt="">
+                <img src="images/img_21.jpg" alt="">
+                <img src="images/img_22.jpg" alt="">
+                <img src="images/img_23.jpg" alt="">
+                <img src="images/img_24.jpg" alt="">
+                <img src="images/img_26.jpg" alt="">
+                <img src="images/img_27.jpg" alt="">
+                <img src="images/img_28.jpg" alt="">
+                <img src="images/img_32.jpg" alt="">
+                <img src="images/img_31.jpg" alt="">
+            </div>
+        </section>
+
+        <section onclick="desaparecerMenu()" class="contacto" id="contacto">
+            <h3>¡Contacto!</h3>
+            <p class="me">Actualmente me encuentro escuchando nuevas ofertas de trabajo (: Puedes contactarme por aquí o por medio de algunas de mis redes sociales, <span>Twitter</span>  o <span>LinkedIn</span></p>
+            <div class="contacto_enlaces">
+                <a href="mailto:eddo.santamaria@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/-eduardosantamaria/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://wa.me/525581344961" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://twitter.com/EffectGM" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </section>
+        
+
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
